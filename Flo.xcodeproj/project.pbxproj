@@ -14,6 +14,7 @@
 		01F303272129582E00C7201D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F303252129582E00C7201D /* LaunchScreen.storyboard */; };
 		01F3032F2129587000C7201D /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F3032E2129587000C7201D /* PushButton.swift */; };
 		01F303312129682B00C7201D /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F303302129682B00C7201D /* CounterView.swift */; };
+		01F303332129994E00C7201D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F303322129994E00C7201D /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		01F303282129582E00C7201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F3032E2129587000C7201D /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		01F303302129682B00C7201D /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		01F303322129994E00C7201D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				01F3031E2129582D00C7201D /* ViewController.swift */,
 				01F3032E2129587000C7201D /* PushButton.swift */,
 				01F303302129682B00C7201D /* CounterView.swift */,
+				01F303322129994E00C7201D /* GraphView.swift */,
 				01F303202129582D00C7201D /* Main.storyboard */,
 				01F303232129582E00C7201D /* Assets.xcassets */,
 				01F303252129582E00C7201D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F303332129994E00C7201D /* GraphView.swift in Sources */,
 				01F3031F2129582D00C7201D /* ViewController.swift in Sources */,
 				01F3031D2129582D00C7201D /* AppDelegate.swift in Sources */,
 				01F3032F2129587000C7201D /* PushButton.swift in Sources */,
