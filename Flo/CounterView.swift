@@ -106,7 +106,7 @@ class CounterView: UIView {
             //rotate and translate
             context.rotate(by: angle)
             context.translateBy(x: 0, y: rect.height / 2 - markerSize)
-            
+
             //6 - fill the marker rectangle
             markerPath.fill()
             //7 - restore the centred context for the next rotate

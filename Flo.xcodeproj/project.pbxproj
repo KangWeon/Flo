@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0112AEF0212AA83B00D5B9FB /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112AEEF212AA83B00D5B9FB /* BackgroundView.swift */; };
+		0112AEF3212AB31700D5B9FB /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112AEF2212AB31700D5B9FB /* MedalView.swift */; };
 		01F3031D2129582D00C7201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F3031C2129582D00C7201D /* AppDelegate.swift */; };
 		01F3031F2129582D00C7201D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F3031E2129582D00C7201D /* ViewController.swift */; };
 		01F303222129582D00C7201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F303202129582D00C7201D /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0112AEEF212AA83B00D5B9FB /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		0112AEF1212AACC700D5B9FB /* MedalDrawing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MedalDrawing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0112AEF2212AB31700D5B9FB /* MedalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
 		01F303192129582D00C7201D /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F3031C2129582D00C7201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F3031E2129582D00C7201D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				01F3031C2129582D00C7201D /* AppDelegate.swift */,
+				0112AEF1212AACC700D5B9FB /* MedalDrawing.playground */,
 				01F3031E2129582D00C7201D /* ViewController.swift */,
+				0112AEF2212AB31700D5B9FB /* MedalView.swift */,
+				0112AEEF212AA83B00D5B9FB /* BackgroundView.swift */,
 				01F3032E2129587000C7201D /* PushButton.swift */,
 				01F303302129682B00C7201D /* CounterView.swift */,
 				01F303322129994E00C7201D /* GraphView.swift */,
@@ -144,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0112AEF0212AA83B00D5B9FB /* BackgroundView.swift in Sources */,
 				01F303332129994E00C7201D /* GraphView.swift in Sources */,
+				0112AEF3212AB31700D5B9FB /* MedalView.swift in Sources */,
 				01F3031F2129582D00C7201D /* ViewController.swift in Sources */,
 				01F3031D2129582D00C7201D /* AppDelegate.swift in Sources */,
 				01F3032F2129587000C7201D /* PushButton.swift in Sources */,

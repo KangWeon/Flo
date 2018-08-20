@@ -17,6 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V2S-Hx-btv" customClass="BackgroundView" customModule="Flo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lightColor">
+                                        <color key="value" red="1" green="1" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="darkColor">
+                                        <color key="value" red="0.87450980392156863" green="1" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="patternSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXA-Z8-YBb" customClass="PushButton" customModule="Flo" customModuleProvider="target">
                                 <rect key="frame" x="137.5" y="392.5" width="100" height="100"/>
                                 <constraints>
@@ -60,6 +76,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvh-dG-ym7" customClass="MedalView" customModule="Flo" customModuleProvider="target">
+                                                <rect key="frame" x="76" y="147" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -232,6 +252,7 @@
                         <outlet property="counterView" destination="ruL-L0-o3y" id="1ju-hb-hM7"/>
                         <outlet property="graphView" destination="aM0-ak-xsj" id="oZP-BW-RhF"/>
                         <outlet property="maxLabel" destination="J5f-YR-Feu" id="0Lt-nr-Ae2"/>
+                        <outlet property="medalView" destination="qvh-dG-ym7" id="2TK-Xa-TjI"/>
                         <outlet property="stackView" destination="cCH-H9-bAo" id="jqf-YJ-GoJ"/>
                     </connections>
                 </viewController>

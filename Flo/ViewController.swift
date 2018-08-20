@@ -24,12 +24,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var maxLabel: UILabel!
     @IBOutlet weak var stackView: UIStackView!
 
+    @IBOutlet weak var medalView: MedalView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         counterLabel.text = String(counterView.counter)
-        
+        checkTotal()
     }
     
     @IBAction func pushButtonPressed(_ button: PushButton) {
@@ -46,6 +47,8 @@ class ViewController: UIViewController {
         if isGraphViewShowing {
             counterViewTap(nil)
         }
+        
+        checkTotal()
     }
     
     
@@ -100,6 +103,14 @@ class ViewController: UIViewController {
         }
     }
 
+    func checkTotal() {
+        if counterView.counter >= 8 {
+            medalView.showMedal(show: true)
+        }
+        else {
+            medalView.showMedal(show: false)
+        }
+    }
     
 }
 
